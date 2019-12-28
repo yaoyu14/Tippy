@@ -15,6 +15,11 @@
 		6D389F4D23AED0D200862AD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D389F4B23AED0D200862AD6 /* LaunchScreen.storyboard */; };
 		6D389F5823AED0D300862AD6 /* tippyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D389F5723AED0D300862AD6 /* tippyTests.swift */; };
 		6D389F6323AED0D300862AD6 /* tippyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D389F6223AED0D300862AD6 /* tippyUITests.swift */; };
+		6D389F7323AEE11400862AD6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D389F7223AEE11400862AD6 /* SettingsViewController.swift */; };
+		6D389F8123B5630400862AD6 /* ThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D389F8023B5630400862AD6 /* ThemeProtocol.swift */; };
+		6D389F8323B563F500862AD6 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D389F8223B563F500862AD6 /* Theme.swift */; };
+		6D389F8523B5644500862AD6 /* LightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D389F8423B5644500862AD6 /* LightTheme.swift */; };
+		6D389F8723B564D500862AD6 /* DarkTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D389F8623B564D500862AD6 /* DarkTheme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		6D389F5E23AED0D300862AD6 /* tippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D389F6223AED0D300862AD6 /* tippyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tippyUITests.swift; sourceTree = "<group>"; };
 		6D389F6423AED0D300862AD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D389F7223AEE11400862AD6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		6D389F8023B5630400862AD6 /* ThemeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeProtocol.swift; sourceTree = "<group>"; };
+		6D389F8223B563F500862AD6 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		6D389F8423B5644500862AD6 /* LightTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTheme.swift; sourceTree = "<group>"; };
+		6D389F8623B564D500862AD6 /* DarkTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkTheme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,11 @@
 		6D389F3F23AED0D200862AD6 /* tippy */ = {
 			isa = PBXGroup;
 			children = (
+				6D389F8023B5630400862AD6 /* ThemeProtocol.swift */,
+				6D389F8423B5644500862AD6 /* LightTheme.swift */,
+				6D389F8623B564D500862AD6 /* DarkTheme.swift */,
+				6D389F8223B563F500862AD6 /* Theme.swift */,
+				6D389F7223AEE11400862AD6 /* SettingsViewController.swift */,
 				6D389F4023AED0D200862AD6 /* AppDelegate.swift */,
 				6D389F4223AED0D200862AD6 /* SceneDelegate.swift */,
 				6D389F4423AED0D200862AD6 /* ViewController.swift */,
@@ -259,9 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D389F8123B5630400862AD6 /* ThemeProtocol.swift in Sources */,
 				6D389F4523AED0D200862AD6 /* ViewController.swift in Sources */,
 				6D389F4123AED0D200862AD6 /* AppDelegate.swift in Sources */,
+				6D389F8323B563F500862AD6 /* Theme.swift in Sources */,
 				6D389F4323AED0D200862AD6 /* SceneDelegate.swift in Sources */,
+				6D389F8523B5644500862AD6 /* LightTheme.swift in Sources */,
+				6D389F7323AEE11400862AD6 /* SettingsViewController.swift in Sources */,
+				6D389F8723B564D500862AD6 /* DarkTheme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
